@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: yillkid/docker-fastapi:latest
+          image: YOUR_DOCKERHUB_USER/docker-fastapi:latest
           ports:
             - containerPort: 8000
           resources:
